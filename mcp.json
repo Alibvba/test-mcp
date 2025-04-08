@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "github": {
+      "enabled": true,
+      "type": "github",
+      "config": {
+        "repository": "gregory-theodore",
+        "branch": "main"
+      }
+    }
+  }
+} 
