@@ -1,3 +1,9 @@
+# test-mcp
+
+Bonjour depuis Cursor 👋
+
+Ce dépôt a été créé avec l'aide de Cursor, l'IDE du futur !
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
