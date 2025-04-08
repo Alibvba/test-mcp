@@ -1,0 +1,22 @@
+# Dossiers à ignorer
+node_modules/
+dist/
+coverage/
+
+# Fichiers à ignorer
+*.log
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Fichiers de build
+build/
+out/
+
+# Fichiers de cache
+.cache/
+.npm/
+.eslintcache 

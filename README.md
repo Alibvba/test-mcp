@@ -4,7 +4,44 @@ Bonjour depuis Cursor 👋
 
 Ce dépôt a été créé avec l'aide de Cursor, l'IDE du futur !
 
-# React + TypeScript + Vite
+## Fonctionnalités
+
+Ce projet inclut plusieurs fonctionnalités avancées :
+
+### 1. Intégration Continue (CI)
+
+Le projet utilise GitHub Actions pour l'intégration continue. À chaque push sur les branches `main` ou `master`, les tests sont exécutés automatiquement.
+
+### 2. Tests Unitaires
+
+Le projet utilise Vitest et React Testing Library pour les tests unitaires. Pour exécuter les tests :
+
+```bash
+# Exécuter les tests en mode watch
+npm test
+
+# Exécuter les tests avec couverture
+npm run test:coverage
+
+# Exécuter les tests avec l'interface utilisateur
+npm run test:ui
+```
+
+### 3. Historique de Développement Automatique
+
+Cursor est configuré pour commenter automatiquement chaque étape du développement. Les fichiers et dossiers à ignorer sont listés dans le fichier `.cursorignore`.
+
+### 4. Détection d'Erreurs Console et GitHub Issues
+
+Le projet inclut un service qui détecte les erreurs console et les envoie automatiquement à GitHub Issues. Pour configurer cette fonctionnalité :
+
+1. Créez un token GitHub avec les permissions `repo` sur [https://github.com/settings/tokens](https://github.com/settings/tokens)
+2. Copiez le fichier `.env.example` en `.env` et ajoutez votre token GitHub :
+   ```
+   VITE_GITHUB_TOKEN=your_github_token_here
+   ```
+
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
